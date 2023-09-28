@@ -54,3 +54,49 @@ li{
 .completed{
     text-decoration: line-through;
 }
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+form{
+    margin-top: 5rem;
+}
+form input[type=text] {
+    margin-top: 3rem;
+    width: 35rem;
+    height: 5rem;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.add-todo-btn {
+    width: 5.5rem;
+    height: 5.5rem;
+    margin-bottom: -2rem;
+    margin-left: 1rem;
+}
+.remove-all-btn {
+    width: 15rem;
+    height: 5rem;
+    margin-top: 4rem;
+    margin-left: 36rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+li{
+    width: 25rem;
+    height: 5rem;
+    font-size: 2.5rem;
+    overflow-y: scroll;
+}
+.completed-btn{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: -0.2rem;
+}
+.delete-btn{
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 0.3rem;
+}
+
+
+
+}

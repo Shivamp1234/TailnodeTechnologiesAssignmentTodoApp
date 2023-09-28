@@ -17,3 +17,14 @@ header h1{
   letter-spacing: 0.2rem;
   padding-top: 2rem;
 }
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+#root{
+  width: 225%;
+  height: 225vh;
+}
+header h1{
+  font-size: 8rem;
+  padding-top: 7rem;
+}
+}
