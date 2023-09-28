@@ -16,8 +16,15 @@ form input[type=text]{
     margin-bottom: -1.05rem;
     cursor: pointer;
 }
-.todo-container{
-    margin-top: 2.5rem;
+.remove-all-btn{
+    width: 8rem;
+    height: 3rem;
+    margin-top: 1rem;
+    margin-left: 50rem;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
 }
 li{
     width: 15rem;

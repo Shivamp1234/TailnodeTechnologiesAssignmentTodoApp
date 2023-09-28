@@ -2,8 +2,12 @@ import React from 'react'
 import Todo from './Todo'
 
 const TodoList = ({ todos, setTodos }) => {
+    const removeAllHandler = () => {
+        setTodos([])
+    }
     return (
         <>
+            <button onClick={removeAllHandler} className='remove-all-btn'>Remove All</button>
             <div className='todo-container'>
                 <ul>
                     {
